@@ -5,7 +5,7 @@ Get your results as an easy-to-read Excel spreadsheet, ready to share or analyze
 
 ---
 
-## 🚦 Quick Start (Non-Technical Users)
+## Quick Start (Non-Technical Users)
 
 ### What You’ll Need:
 - A Windows, Mac, or Linux computer
@@ -26,7 +26,7 @@ Get your results as an easy-to-read Excel spreadsheet, ready to share or analyze
 
 - Open **Anaconda Prompt** (Windows) or your terminal (Mac/Linux).
 - Use `cd` to navigate to the project folder, for example:
-    cd C:\Users\YourName\Downloads\slprices
+    `cd C:\Users\YourName\Downloads\slprices`
 
 - Run the following command to create your Python environment:
     `conda env create -f environment.yml`
@@ -74,7 +74,7 @@ In your terminal, run:
 
 ---
 
-## 🛠️ Technical/Advanced User Guide
+## Technical/Advanced User Guide
 
 ### Overview
 

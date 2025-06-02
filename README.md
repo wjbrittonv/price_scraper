@@ -110,7 +110,7 @@ This project orchestrates:
 Creates `input/items_to_price_check_cleaned.xlsx`.
 
 3. **Pull Kroger prices:**  
-    `python kroger_api_scraper.py`
+    `python -m slprices.scripts.kroger_api_scraper`
 Creates `output/kroger_products.csv`.
 
 4. **Scrape Superlo prices:**  

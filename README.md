@@ -29,10 +29,10 @@ Get your results as an easy-to-read Excel spreadsheet, ready to share or analyze
     cd C:\Users\YourName\Downloads\slprices
 
 - Run the following command to create your Python environment:
-    conda env create -f environment.yml
+    `conda env create -f environment.yml`
 
 - Activate the new environment:
-    conda activate slprices
+    `conda activate slprices`
 
 
 ---
@@ -51,7 +51,7 @@ Get your results as an easy-to-read Excel spreadsheet, ready to share or analyze
 Double-click `run_all.bat` in the project folder.
 - **Mac/Linux:**  
 In your terminal, run:
-    ./run_all.sh
+    `./run_all.sh`
 (If you see a permissions error, first run `chmod +x run_all.sh`)
 
 ---
@@ -59,7 +59,7 @@ In your terminal, run:
 ### 5. View Your Results
 
 - Your completed price sheet will be found at:
-    output/items_to_price_check_updated.xlsx
+    `output/items_to_price_check_updated.xlsx`
 
 - Open this file in Excel.
 
@@ -93,9 +93,9 @@ This project orchestrates:
 - All Python packages and dependencies are managed for you.
 - Install Anaconda: https://www.anaconda.com/products/distribution
 - Create the environment:
-    conda env create -f environment.yml
+    `conda env create -f environment.yml`
 - Activate it:
-    conda activate slprices
+    `conda activate slprices`
 #### Manual pip install (if needed):
     pip install -r requirements.txt
 
@@ -106,15 +106,15 @@ This project orchestrates:
 1. **Edit** `input/items_to_price_check.xlsx` with your products.
 
 2. **Clean the Excel file:** 
-    python -m slprices.scripts.clean_excel
+    `python -m slprices.scripts.clean_excel`
 Creates `input/items_to_price_check_cleaned.xlsx`.
 
 3. **Pull Kroger prices:**  
-    python kroger_api_scraper.py
+    `python kroger_api_scraper.py`
 Creates `output/kroger_products.csv`.
 
 4. **Scrape Superlo prices:**  
-    scrapy crawl superlo -O output/superlo_products.csv
+    `scrapy crawl superlo -O output/superlo_products.csv`
 (The `-O` argument is required!)
 
 5. **Merge everything into a final report:**  
@@ -138,8 +138,9 @@ Run `./run_all.sh` in your terminal (make it executable with `chmod +x run_all.s
 ```python
 TEST_MODE = True   # Use test files for safe/quick runs
 TEST_MODE = False  # Use all items for real results
-All scripts will use the appropriate input files automatically.
 ```
+All scripts will use the appropriate input files automatically.
+
 
 ---
 

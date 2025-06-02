@@ -139,16 +139,7 @@ Run `./run_all.sh` in your terminal (make it executable with `chmod +x run_all.s
 TEST_MODE = True   # Use test files for safe/quick runs
 TEST_MODE = False  # Use all items for real results
 All scripts will use the appropriate input files automatically.
-
----
-
-### Logs and Troubleshooting
-
-    Logs are saved in the logs/ directory and rotate automatically.
-
-    If something fails, check the most recent log file for details.
-
-    If a script fails because a file is missing, ensure all steps ran in order and the input file is correct.
+```
 
 ---
 

@@ -93,11 +93,11 @@ This project orchestrates:
 - All Python packages and dependencies are managed for you.
 - Install Anaconda: https://www.anaconda.com/products/distribution
 - Create the environment:
-    ```conda env create -f environment.yml
+    conda env create -f environment.yml
 - Activate it:
-    ```conda activate slprices
+    conda activate slprices
 #### Manual pip install (if needed):
-    ```pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ---
 
